@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Guilherme">
+    <meta name="keywords" content="portifólio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Portifólio</title>
 </head>
 <body>
-    <h2>Olá meu nome é Guilherme</h2>
+    <header>
+        <h1>Meu portifólio</h1>
+    </header>
+ 
+    <main>
+        <section>
+            <h2>Seção de Listas</h2>
+            <form >
+                <div>
+                    <h3>Listas Não Numeradas</h3>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+
+                    <h3>Listas Numeradas</h3>
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Seção de Imagem e Vídeo</h2>
+            <img width="250" height="200" src="./Imagens/imagem-pix.png" alt="Imagem de demonstração">
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/NTJwy9BR3Dc?si=PXJZS8gz8oZNtvPa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Seção de Formulário</h2>
+            <form>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Nome completo"/>
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="exemplo@exemplo.com">
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required placeholder="Nome completo">
+                </div>
+                
+                <button type="submit">Salvar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+
+        <section></section>
+
+        <section></section>
+
+        <section></section>
+    </main>
+
+    <footer>
+        <p>
+            <center>
+                &copy; Direitos revervados a Guilherme Fortunato
+            </center>
+        </p>
+    </footer>
 </body>
 </html>
